@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  @font-face {
+    font-family: 'great-vibes';
+    font-weight: 400;
+    src: url('../../public/fonts/GreatVibes-Regular.ttf');;
+  }  
+}
+
